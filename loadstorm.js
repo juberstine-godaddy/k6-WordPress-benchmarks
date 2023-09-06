@@ -10,24 +10,14 @@ import Metrics from './lib/metrics.js';
 
 
 export const options = {
-    vus: 1,
-    duration: '60s',
-    /*
-    // vus, duration - can be replaced with stages
-    // the following mimics old Load Storm test
-    // it ramps up to target over 20 minutes
-    // then holds at peak (target) for 10 minutes
     stages: [
         { duration: '20m', target: 1000 }, // simulate ramp-up of traffic from 1 to 1000 users over 20 minutes.
         { duration: '10m', target: 1000 }, // stay at max load for 10 minutes
     ],
-    */
     ext: {
         //for running k6.io cloud tests
         loadimpact: {
             projectID: 3657251,//put your project ID for k6 here
-            /*
-            //Optional Geo-Distribution of load test for cloud execution
             distribution: {
                 Virginia: { loadZone: 'amazon:us:ashburn', percent: 10 },
                 London: { loadZone: 'amazon:gb:london', percent: 10 },
@@ -40,7 +30,6 @@ export const options = {
                 Singapore: { loadZone: 'amazon:sg:singapore', percent: 10 },
                 Brazil: { loadZone: 'amazon:br:sao paulo', percent: 10 },
             },
-            */
         }
     }
 }

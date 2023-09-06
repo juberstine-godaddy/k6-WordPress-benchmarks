@@ -94,7 +94,7 @@ export const options = {
     /*ext: {
         //for running k6.io cloud tests
         loadimpact: {
-            projectID: 3581638,
+            projectID: 3657251,
             // Test runs with the same name groups test runs together
             name: "WooCommerce",
             distribution: {
