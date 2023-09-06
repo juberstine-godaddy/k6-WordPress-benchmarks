@@ -91,12 +91,11 @@ export const options = {
             ],
         },
     },
-    /*ext: {
+    ext: {
         //for running k6.io cloud tests
         loadimpact: {
             projectID: 3657251,
             // Test runs with the same name groups test runs together
-            name: "WooCommerce",
             distribution: {
                 Virginia: { loadZone: 'amazon:us:ashburn', percent: 10 },
                 London: { loadZone: 'amazon:gb:london', percent: 10 },
@@ -110,7 +109,7 @@ export const options = {
                 Brazil: { loadZone: 'amazon:br:sao paulo', percent: 10 },
             },
         }
-    }*/
+    }
 }
 
 //setup executes once at the start and passes data to the main function (default) which a VUser executes
