@@ -26,7 +26,6 @@ export const options = {
         //for running k6.io cloud tests
         loadimpact: {
             projectID: 3657251,//put your project ID for k6 here
-            name: "loadstorm test" //test name, tests with the same name group together
             /*
             //Optional Geo-Distribution of load test for cloud execution
             distribution: {
