@@ -17,7 +17,7 @@ export let options = {
   batch: 1,
   throw: true,
   stages: [
-    { duration: '60s', target: 1 },
+    { duration: '15m', target: 1000 },
   ],
   ext: {
     loadimpact: {

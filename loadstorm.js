@@ -25,7 +25,7 @@ export const options = {
     ext: {
         //for running k6.io cloud tests
         loadimpact: {
-            projectID: 3581638,//put your project ID for k6 here
+            projectID: 3657251,//put your project ID for k6 here
             name: "loadstorm test" //test name, tests with the same name group together
             /*
             //Optional Geo-Distribution of load test for cloud execution
@@ -76,13 +76,13 @@ export function setup () {
         jar: {jar},
     };
 
-    const usernameBase = 'testuser';
+    const usernameBase = 'username';
     //username range is appended to username base if it exists. randomly choosing a number to append within the range to usernameBase
     const usernameRange = {
                             start: 1,
                             end: 5,
                           }
-    const password = 'password';
+    const password = 'use_a_password';
 
     const wpLogin = 'wp-login.php';
 
