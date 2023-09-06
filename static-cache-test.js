@@ -40,7 +40,7 @@ export let options = {
 export default function () {
   let params = {
     headers: { 
-      'X-CustomHeader': '1',
+      'x-reviewsignal': '1',
       "accept-encoding": "gzip, br, deflate",
     },
   };

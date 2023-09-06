@@ -25,7 +25,7 @@ export const options = {
     ext: {
         //for running k6.io cloud tests
         loadimpact: {
-            projectID: 123456789,//put your project ID for k6 here
+            projectID: 3581638,//put your project ID for k6 here
             name: "loadstorm test" //test name, tests with the same name group together
             /*
             //Optional Geo-Distribution of load test for cloud execution
@@ -70,7 +70,7 @@ export function setup () {
     //setup parameters to be sent with every request, eg. custom header and cookie jar
     const globalParams = {
         headers: { 
-            'X-CustomHeader': '1',
+            'x-reviewsignal': '1',
             "accept-encoding": "gzip, br, deflate",
         },
         jar: {jar},

@@ -94,7 +94,7 @@ export const options = {
     /*ext: {
         //for running k6.io cloud tests
         loadimpact: {
-            projectID: 1234567890,
+            projectID: 3581638,
             // Test runs with the same name groups test runs together
             name: "WooCommerce",
             distribution: {
@@ -132,7 +132,7 @@ export function setup () {
     //setup parameters to be sent with every request, eg. custom header and cookie jar
     const globalParams = {
         headers: { 
-            'CustomHeader': 'NotADDoS',
+            'x-reviewsignal': '1',
             "accept-encoding": "gzip, br, deflate",
         },
         jar: {jar},
