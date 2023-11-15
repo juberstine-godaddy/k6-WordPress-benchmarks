@@ -64,7 +64,7 @@ export function setup () {
         jar: {jar},
     };
 
-    const usernameBase = 'username';
+    const usernameBase = 'us1-mwp-k6';
     //username range is appended to username base if it exists. randomly choosing a number to append within the range to usernameBase
     const usernameRange = {
                             start: 1,
