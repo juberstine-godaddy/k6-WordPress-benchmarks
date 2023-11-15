@@ -94,7 +94,7 @@ export const options = {
     ext: {
         //for running k6.io cloud tests
         loadimpact: {
-            projectID: 3657251,
+            projectID: 3668343,
             // Test runs with the same name groups test runs together
             distribution: {
                 Virginia: { loadZone: 'amazon:us:ashburn', percent: 10 },
@@ -137,13 +137,13 @@ export function setup () {
         jar: {jar},
     };
 
-    const usernameBase = 'username';
+    const usernameBase = 'us1-mwp-k6';
     //username range is appended to username base if it exists. randomly choosing a number to append within the range to usernameBase
     const usernameRange = {
                             start: 10,
                             end: 10010,
                           }
-    const password = 'pass';//default
+    const password = 'use_a_password';//default
 
     const wpLogin = 'wp-login.php';
 
