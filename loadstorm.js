@@ -17,7 +17,7 @@ export const options = {
     ext: {
         //for running k6.io cloud tests
         loadimpact: {
-            projectID: 3657251,//put your project ID for k6 here
+            projectID: 3668343,//put your project ID for k6 here
             distribution: {
                 Virginia: { loadZone: 'amazon:us:ashburn', percent: 10 },
                 London: { loadZone: 'amazon:gb:london', percent: 10 },
