@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc4f9f9f-e8a4-42cd-968b-e3297c290774" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/notes.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -53,7 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1699396113833</updated>
       <workItem from="1699396114868" duration="4074000" />
-      <workItem from="1700066189111" duration="794000" />
+      <workItem from="1700066189111" duration="4718000" />
     </task>
     <servers />
   </component>

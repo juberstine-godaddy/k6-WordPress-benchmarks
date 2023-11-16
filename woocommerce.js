@@ -98,7 +98,7 @@ export const options = {
             // Test runs with the same name groups test runs together
             distribution: {
                 Virginia: { loadZone: 'amazon:us:ashburn', percent: 10 },
-                London: { loadZone: 'amazon:gb:london', percent: 10 },
+                /*London: { loadZone: 'amazon:gb:london', percent: 10 },
                 Frankfurt: { loadZone: 'amazon:de:frankfurt', percent: 10 },
                 Oregon: { loadZone: 'amazon:us:portland', percent: 10 },
                 Ohio: { loadZone: 'amazon:us:columbus', percent: 10 },
@@ -106,7 +106,7 @@ export const options = {
                 Sydney: { loadZone: 'amazon:au:sydney', percent: 10 },
                 Mumbai: { loadZone: 'amazon:in:mumbai', percent: 10 },
                 Singapore: { loadZone: 'amazon:sg:singapore', percent: 10 },
-                Brazil: { loadZone: 'amazon:br:sao paulo', percent: 10 },
+                Brazil: { loadZone: 'amazon:br:sao paulo', percent: 10 },*/
             },
         }
     }
