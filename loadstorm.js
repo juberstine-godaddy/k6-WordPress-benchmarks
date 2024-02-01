@@ -59,7 +59,7 @@ export function setup () {
     const globalParams = {
         headers: { 
             'x-reviewsignal': '1',
-            "accept-encoding": "gzip, br, deflate",
+            'accept-encoding': 'gzip, br, deflate',
         },
         jar: {jar},
     };

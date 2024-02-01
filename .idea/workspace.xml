@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc4f9f9f-e8a4-42cd-968b-e3297c290774" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/notes.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+    <list default="true" id="cc4f9f9f-e8a4-42cd-968b-e3297c290774" name="Changes" comment="notes rev1&#10;also, reminder that Woo will be a diff site">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/woocommerce.js" beforeDir="false" afterPath="$PROJECT_DIR$/woocommerce.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loadstorm.js" beforeDir="false" afterPath="$PROJECT_DIR$/loadstorm.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +31,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;gd-branch&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/benjamin6616/Documents/projects/k6-WordPress-benchmarks&quot;,
@@ -54,8 +52,18 @@
       <option name="presentableId" value="Default" />
       <updated>1699396113833</updated>
       <workItem from="1699396114868" duration="4074000" />
-      <workItem from="1700066189111" duration="4718000" />
+      <workItem from="1700066189111" duration="6401000" />
+      <workItem from="1700148927136" duration="2897000" />
     </task>
+    <task id="LOCAL-00001" summary="notes rev1&#10;also, reminder that Woo will be a diff site">
+      <option name="closed" value="true" />
+      <created>1700106284076</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700106284076</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -71,5 +79,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="notes rev1&#10;also, reminder that Woo will be a diff site" />
+    <option name="LAST_COMMIT_MESSAGE" value="notes rev1&#10;also, reminder that Woo will be a diff site" />
   </component>
 </project>
