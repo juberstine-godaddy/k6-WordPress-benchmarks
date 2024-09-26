@@ -17,7 +17,7 @@ export const options = {
     ext: {
         //for running k6.io cloud tests
         loadimpact: {
-            projectID: 3657251,//put your project ID for k6 here
+            projectID: 3668343,//put your project ID for k6 here
             distribution: {
                 Virginia: { loadZone: 'amazon:us:ashburn', percent: 10 },
                 London: { loadZone: 'amazon:gb:london', percent: 10 },
@@ -59,12 +59,12 @@ export function setup () {
     const globalParams = {
         headers: { 
             'x-reviewsignal': '1',
-            "accept-encoding": "gzip, br, deflate",
+            'accept-encoding': 'gzip, br, deflate',
         },
         jar: {jar},
     };
 
-    const usernameBase = 'username';
+    const usernameBase = 'us1-mwp-k6';
     //username range is appended to username base if it exists. randomly choosing a number to append within the range to usernameBase
     const usernameRange = {
                             start: 1,
